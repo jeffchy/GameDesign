@@ -1,24 +1,40 @@
 if (keyboard_check(vk_left))
 {
-	x += - 4;
-	y += 0;
+	dx = - spd;
+	dy = 0;
+	x += dx;
+	y += dy;
 	image_angle = 90;
+	dir = DIR_LEFT;
 }
-if (keyboard_check(vk_right))
+else if (keyboard_check(vk_right))
 {
-	x += 4;
-	y += 0;
+	dx = spd;
+	dy = 0;
+	x += dx;
+	y += dy;
 	image_angle = -90;
+	dir = DIR_RIGHT;
 }
-if (keyboard_check(vk_up))
+else if (keyboard_check(vk_up))
 {
-	x += 0;
-	y += - 4;
+	dx = 0;
+	dy = - spd;
+	x += dx;
+	y += dy;
 	image_angle = 0;
+	dir = DIR_UP;
 }
-if (keyboard_check(vk_down))
+else if (keyboard_check(vk_down))
 {
-	x += 0;
-	y += 4;
+	dx = 0;
+	dy = spd;
+	x += dx;
+	y += dy;
 	image_angle = 180;
+	dir = DIR_DOWN;
 }
+
+// process player collision
+ProcessCollision(id, dx,dy, 16,16,16,16 );
+
