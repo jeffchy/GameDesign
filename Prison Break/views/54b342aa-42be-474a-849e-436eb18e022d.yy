@@ -9,8 +9,7 @@
         "6110e4aa-1a4c-4ad6-aee2-8e35015d2c00",
         "81107460-0f43-433d-9dd1-dd6d5deff9a2",
         "9823f9f5-cb2b-4b34-a926-58c34806a8e8",
-        "a1c93fc0-5a80-438f-bb63-d52f7212de93",
-        "965927a0-e906-4ac1-83e1-6e3be99c8d95"
+        "a1c93fc0-5a80-438f-bb63-d52f7212de93"
     ],
     "filterType": "GMObject",
     "folderName": "systems",
