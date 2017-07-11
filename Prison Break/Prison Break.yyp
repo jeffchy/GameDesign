@@ -82,7 +82,11 @@
             "Key": "2483cd51-2f29-4419-89a3-19808043b997",
             "Value": {
                 "id": "dcd927ee-2185-4457-aff2-b9c5fefbdc7d",
+<<<<<<< HEAD
                 "resourcePath": "rooms\/room1\/room1.yy",
+=======
+                "resourcePath": "rooms\\name_room\\name_room.yy",
+>>>>>>> 6ce2d89332a082141b9673f9bceaa4422e8c6d35
                 "resourceType": "GMRoom"
             }
         },
@@ -273,7 +277,11 @@
         {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
+<<<<<<< HEAD
                 "id": "d8a4cc44-31f6-4750-95d8-32010375a2e2",
+=======
+                "id": "f0c1e98f-8740-4a73-85fd-a21cf20dc5a5",
+>>>>>>> 6ce2d89332a082141b9673f9bceaa4422e8c6d35
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
             }
@@ -298,7 +306,11 @@
             "Key": "d4e670e1-f372-4756-bf42-71ca24284053",
             "Value": {
                 "id": "33b0c195-5dd1-46d5-8c93-b2adfe7f2f58",
+<<<<<<< HEAD
                 "resourcePath": "rooms\/room2\/room2.yy",
+=======
+                "resourcePath": "rooms\\tutorial_room\\tutorial_room.yy",
+>>>>>>> 6ce2d89332a082141b9673f9bceaa4422e8c6d35
                 "resourceType": "GMRoom"
             }
         },
@@ -354,7 +366,11 @@
             "Key": "fd6c14ec-5a71-4599-8e2b-556c13152839",
             "Value": {
                 "id": "49c8cf27-7da6-4fb5-964e-e4ed2688ce30",
+<<<<<<< HEAD
                 "resourcePath": "rooms\/room0\/room0.yy",
+=======
+                "resourcePath": "rooms\\test_room\\test_room.yy",
+>>>>>>> 6ce2d89332a082141b9673f9bceaa4422e8c6d35
                 "resourceType": "GMRoom"
             }
         },
