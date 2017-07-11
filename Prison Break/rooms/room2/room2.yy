@@ -75,7 +75,7 @@
                     "name": "inst_4CC4B43",
                     "x": 896,
                     "y": 704,
-                    "IsDnD": true,
+                    "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
                     },
