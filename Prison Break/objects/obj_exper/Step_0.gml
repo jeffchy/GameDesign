@@ -33,8 +33,6 @@ if (found && obj_SIST.dead == false)
 				y += spd;
 		}
 	}
-	//direction = point_direction(x, y, obj_SLST.x, obj_SLST.y);
-	//speed = spd;
 }
 
 
@@ -42,6 +40,7 @@ if(x > px)
 {
 	if (dir != DIR_RIGHT) {
 		sprite_index = spr_exper_right;
+		image_xscale = exper_scale;
 		image_index = 0;
 		dir = DIR_RIGHT;
 	}
@@ -52,7 +51,8 @@ if(x > px)
 if(x < px)
 {
 	if (dir != DIR_LEFT) {
-		sprite_index = spr_exper_left;
+		sprite_index = spr_exper_right;
+		image_xscale = - exper_scale;
 		image_index = 0;
 		dir = DIR_LEFT;
 	}

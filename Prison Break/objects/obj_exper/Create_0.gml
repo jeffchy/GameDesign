@@ -1,7 +1,9 @@
 InitGlobal();
 
-image_xscale = 2;
-image_yscale = 2;
+exper_scale = 2;
+
+image_xscale = exper_scale;
+image_yscale = exper_scale;
 
 spd = 2;
 chase_spd = 4;

@@ -1,2 +1,0 @@
-name = "";
-length = 0;
