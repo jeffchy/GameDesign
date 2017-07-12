@@ -1,3 +1,4 @@
+if (shown){
 if (keyboard_check_pressed(ord("D")))
 {
 audio_stop_sound(snd_select);
@@ -48,3 +49,4 @@ audio_play_sound(snd_select,0,0);
 }
 self.x = 515 + rowadd*112;
 self.y = 370 + columnadd*135;
+}

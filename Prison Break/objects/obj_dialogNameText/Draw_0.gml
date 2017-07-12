@@ -7,9 +7,9 @@ image_alpha = alpha;
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
 /// @DnDHash : 7BC9D4AC
-/// @DnDArgument : "font" "fnt_8bit"
-/// @DnDSaveInfo : "font" "e339d1e1-de49-4102-a7dc-6b2ea2e6768c"
-draw_set_font(fnt_8bit);
+/// @DnDArgument : "font" "fnt_8bit_smaller"
+/// @DnDSaveInfo : "font" "611f54c7-e2fb-41be-b41e-6dfec574922a"
+draw_set_font(fnt_8bit_smaller);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1

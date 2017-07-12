@@ -1,3 +1,4 @@
+if (obj_dialog.shown == false && dead == false && obj_SLST.dead = false){
 if (keyboard_check(ord("A")))
 {
 	dx = - spd;
@@ -36,5 +37,11 @@ else if (keyboard_check(ord("S")))
 }
 
 // process player collision
-ProcessCollision(id, dx,dy, 16,16,16,16 );
+ProcessCollision(id, dx,dy, 15,15,15,15 );
+}
+
+px = x;
+py = y;
+
+
 

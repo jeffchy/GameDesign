@@ -1,3 +1,4 @@
+if (obj_dialog.shown == false && dead == false && obj_SIST.dead = false){
 if (keyboard_check(vk_left))
 {
 	dx = - spd;
@@ -36,5 +37,20 @@ else if (keyboard_check(vk_down))
 }
 
 // process player collision
-ProcessCollision(id, dx,dy, 16,16,16,16 );
+ProcessCollision(id, dx,dy, 15,15,15,15 );
+}
 
+	if  (  (obj_SLST.x-other.x)^2 +(obj_SLST.y-other.y)^2  > 9 && obj_SLST.dead == false){
+		if (obj_SLST.dead = false){
+			path_end();
+			obj_SLST.dead = true;
+			ShowDialog();
+			ShowText("Experimenter",
+			"Ha ha ha!
+			I caught you SLST mouse!
+			Go die!",2,0.9);
+		}	
+	}else{
+		path_end();
+		found = true;
+	}

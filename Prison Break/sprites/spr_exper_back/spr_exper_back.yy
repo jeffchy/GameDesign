@@ -7,10 +7,10 @@
     "HTile": false,
     "VTile": false,
     "bbox_bottom": 95,
-    "bbox_left": 0,
-    "bbox_right": 31,
-    "bbox_top": 0,
-    "bboxmode": 1,
+    "bbox_left": 5,
+    "bbox_right": 26,
+    "bbox_top": 1,
+    "bboxmode": 2,
     "colkind": 1,
     "coltolerance": 0,
     "frames": [
@@ -85,5 +85,5 @@
     "type": 0,
     "width": 32,
     "xorig": 16,
-    "yorig": 78
+    "yorig": 15
 }

@@ -17,4 +17,4 @@ dy = 0;
 WallMap = global.WallMap;
 
 found = false;
-
+found2 = false;

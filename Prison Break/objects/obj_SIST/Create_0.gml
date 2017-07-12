@@ -11,3 +11,8 @@ dx = 0;
 dy = 0;
 
 WallMap = global.WallMap;
+Case = 0;
+dead = false;
+
+px = 0;
+py = 0;
