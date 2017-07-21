@@ -1,0 +1,9 @@
+rowadd = 0;
+columnadd = 0;
+self.x = 515 + rowadd*100;
+self.y = 384;
+shown = false;
+image_alpha = 0;
+text = "";
+global.debug = false;
+index = 1;
